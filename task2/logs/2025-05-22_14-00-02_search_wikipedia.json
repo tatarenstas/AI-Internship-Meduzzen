@@ -1,0 +1,7 @@
+{
+  "timestamp": "2025-05-22_14-00-02",
+  "function": "search_wikipedia",
+  "arguments": {
+    "query": "first Olympic Games"
+  }
+}
