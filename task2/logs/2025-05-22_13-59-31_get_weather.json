@@ -1,7 +1,0 @@
-{
-  "timestamp": "2025-05-22_13-59-31",
-  "function": "get_weather",
-  "arguments": {
-    "city": "Chernivtsi"
-  }
-}

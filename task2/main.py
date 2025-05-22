@@ -1,7 +1,9 @@
 import os
 import argparse
+
 from dotenv import load_dotenv
 from openai import OpenAI
+
 from tool_assistant import ToolAssistant
 
 def load_api_key() -> str:

@@ -70,7 +70,7 @@ Each function call is automatically saved to `logs/` with a timestamp and argume
 **Example:**
 
 ```
-logs/2025-05-21_10-45-00_get_weather.json
+logs/2025-05-22_16-34-01_6bc82e48-3711-11f0-b713-e4a8dfe361a5_get_weather.json
 ```
 
 ---
