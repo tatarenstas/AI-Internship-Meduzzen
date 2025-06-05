@@ -1,0 +1,19 @@
+Assistant is ready. Type '/exit' to quit.
+> You: /update_kb_voice
+Assistant: Enter path to audio file:
+> reagan_america.wav
+Assistant: Transcribed and added.
+> You: /update_kb_text
+Assistant: Enter knowledge text:
+> Mercury is the smallest planet in the solar system and the closest to the Sun.
+Assistant: Added.
+> You: /update_kb_text
+Assistant: Enter knowledge text:
+> Despite being closest to the Sun, Mercury is not the hottest planet.
+Assistant: Added.
+> You: search about Mercury
+Assistant: Mercury is the smallest planet in the solar system and the closest to the Sun.
+> You: search about America
+Assistant: America is back, standing tall, looking to the 80s with courage, confidence, and hope.
+> You: /exit
+Assistant: Goodbye!
