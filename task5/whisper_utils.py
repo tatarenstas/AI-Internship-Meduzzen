@@ -1,13 +1,13 @@
 from openai import OpenAI
 
-def transcribe(client: OpenAI, file_path: str):
+def transcribe(client: OpenAI, path: str) -> str:
     try:
-        with open(file_path, "rb") as f:
-            response = client.audio.transcriptions.create(
+        with open(path, "rb") as f:
+            res = client.audio.transcriptions.create(
                 model="whisper-1",
                 file=f
             )
-        return response.text
-
+        return res.text
     except Exception as e:
-        print(f"Error (in transcribe): {e}")
+        print(f"Error during transcription: {e}")
+        return ""
