@@ -1,10 +1,10 @@
 # Internship Week 1 - Capstone Project
 
-## 📄 Title: Build a CLI AI Assistant with Memory, Tools, and Audio/Text Input
+## Title: Build a CLI AI Assistant with Memory, Tools, and Audio/Text Input
 
 This project involves creating a modular command-line AI assistant capable of processing both text and audio input. The assistant updates a vector knowledge base based on user interactions and supports semantic searches using GPT-4o tools while maintaining a session dialogue in memory.
 
-## ✨ Features
+## Features
 
 - **Text and Audio Input Handling**: Accepts user inputs through direct text or specified audio file paths.
 - **Memory and Retrieval**: Updates and retrieves information from a vector knowledge base using semantic search.
@@ -12,7 +12,7 @@ This project involves creating a modular command-line AI assistant capable of pr
 - **Session Summarization**: Generates session summaries on demand.
 - **Flexible Commands**: Supports commands like `/update_kb_text`, `/update_kb_voice`, and `/exit`.
 
-## 🔧 Components
+## Components
 
 - **Knowledge Base**: Utilizes OpenAI embeddings and FAISS for storing and retrieving information.
 - **Whisper Integration**: Transcribes audio inputs into text.
