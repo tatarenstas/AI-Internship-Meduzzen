@@ -23,7 +23,7 @@ class VectorStore:
             return
 
         normed = (embedding / norm).astype(np.float32)
-        normed_2d = normed[np.newaxis, :]  # shape (1, 1536)
+        normed_2d = normed[np.newaxis, :]
 
         self.index.add(normed_2d)
         self.texts.append(text)
@@ -32,13 +32,22 @@ class VectorStore:
     def search(self, query: str, top_k: int = 3) -> List[str]:
         embedding = self._get_embedding(query)
         norm = np.linalg.norm(embedding)
+
         if norm == 0 or self.index.ntotal == 0:
             return ["Nothing found."]
 
         query_vec = (embedding / norm).astype(np.float32).reshape(1, -1)
-        _, indices = self.index.search(query_vec, top_k)
 
-        return [self.texts[i] for i in indices[0] if i < len(self.texts)]
+        k = min(top_k, self.index.ntotal)
+        _, indices = self.index.search(query_vec, k)
+
+        results = []
+        for i in indices[0]:
+            if i == -1 or i >= len(self.texts):
+                continue
+            results.append(self.texts[i])
+
+        return results if results else ["Nothing found."]
 
     def _get_embedding(self, text: str) -> np.ndarray:
         response = self.client.embeddings.create(

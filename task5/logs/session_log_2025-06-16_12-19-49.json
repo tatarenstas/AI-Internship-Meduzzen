@@ -1,0 +1,104 @@
+[
+  {
+    "timestamp": "2025-06-16T12:13:49.675340",
+    "event": "update_kb_text",
+    "data": {
+      "text": "Місто розташоване на півночі України, на межі Полісся і лісостепу по обидва береги Дніпра в його середній течії. Площа міста 836 км². Довжина вздовж берега — понад 20 км."
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:14:11.659465",
+    "event": "update_kb_voice",
+    "data": {
+      "path": "reagan_america.wav",
+      "transcript": "America is back, standing tall, looking to the 80s with courage, confidence, and hope."
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:14:28.946436",
+    "event": "user_message",
+    "data": {
+      "content": "find something about Kyiv"
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:14:30.193310",
+    "event": "function_call_logged",
+    "data": {
+      "filename": "logs/2025-06-16_12-14-30_4134e4ac-2e79-4f23-aba6-af6079b6fa8f_semantic_search.json"
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:14:30.439674",
+    "event": "function_result",
+    "data": {
+      "function": "semantic_search",
+      "result": "Місто розташоване на півночі України, на межі Полісся і лісостепу по обидва береги Дніпра в його середній течії. Площа міста 836 км². Довжина вздовж берега — понад 20 км.\nAmerica is back, standing tall, looking to the 80s with courage, confidence, and hope."
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:14:35.513452",
+    "event": "assistant_message",
+    "data": {
+      "content": "Київ — столиця і найбільше місто України. Розташоване на півночі центральної частини країни, місто розкинулось обабіч річки Дніпро. Закладене у V столітті, Київ має багате історичне, культурне та політичне значення. Він відомий своєю архітектурною спадщиною, зокрема такими пам'ятками як Софійський собор і Києво-Печерська лавра, які входять до списку Світової спадщини ЮНЕСКО.\n\nСьогодні Київ є важливим економічним, науковим, освітнім і культурним центром. Це також один з ключових транспортних вузлів країни з добре розвиненою інфраструктурою. Місто є домом для багатьох університетів, музеїв, театрів і галерей, що робить його важливим осередком культурного життя України.\n\nНезважаючи на сучасний розвиток, Київ зберігає свій унікальний характер, поєднуючи традиції з новітніми досягненнями."
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:14:59.259116",
+    "event": "user_message",
+    "data": {
+      "content": "search about America"
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:15:00.230101",
+    "event": "function_call_logged",
+    "data": {
+      "filename": "logs/2025-06-16_12-15-00_b072953a-3a7a-42ad-bc72-01174b1d172a_semantic_search.json"
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:15:00.642373",
+    "event": "function_result",
+    "data": {
+      "function": "semantic_search",
+      "result": "America is back, standing tall, looking to the 80s with courage, confidence, and hope.\nМісто розташоване на півночі України, на межі Полісся і лісостепу по обидва береги Дніпра в його середній течії. Площа міста 836 км². Довжина вздовж берега — понад 20 км."
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:15:05.435122",
+    "event": "assistant_message",
+    "data": {
+      "content": "The United States of America (USA) is a country comprised of 50 states, a federal district, five major unincorporated territories, and various possessions. It is located primarily in North America, with the capital city being Washington, D.C. The USA is the third largest country in the world by both land area and population.\n\nThe country has a diverse climate and geography, ranging from the arctic tundra of Alaska to the tropical beaches of Hawaii and Florida. The economy of the USA is the largest in the world, characterized by a highly developed and technologically advanced society. It is a global leader in industries such as technology, finance, healthcare, and entertainment.\n\nCulturally, the USA is known for its influence worldwide, having produced major contributions in music, film, technology, and fashion. The country is also noted for its historical values of democracy, freedom, and equality.\n\nThroughout its history, the USA has played a significant role in international relations and maintains a large cultural, economic, and military influence globally."
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:15:12.106521",
+    "event": "user_message",
+    "data": {
+      "content": "write summary"
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:15:13.047567",
+    "event": "function_call_logged",
+    "data": {
+      "filename": "logs/2025-06-16_12-15-13_5e37e500-bf26-47e1-85a5-90406f0cc610_summarize_session.json"
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:15:15.933462",
+    "event": "function_result",
+    "data": {
+      "function": "summarize_session",
+      "result": "The user asked for information about Kyiv and the USA. The assistant provided details about Kyiv, highlighting it as the capital and largest city of Ukraine with rich historical and cultural significance, important architectural landmarks, and a robust economic and cultural scene. The city balances tradition with modern development. Regarding the USA, the assistant described it as a vast country with 50 states, leading economically and culturally with significant global influence in various industries and known for its values of democracy and freedom."
+    }
+  },
+  {
+    "timestamp": "2025-06-16T12:15:18.139197",
+    "event": "assistant_message",
+    "data": {
+      "content": "The user inquired about Kyiv and the USA. The assistant detailed Kyiv as Ukraine's capital, known for its historical significance, architectural landmarks, and cultural and economic importance. For the USA, the assistant highlighted its status as a vast country with significant global influence in economics, culture, and international relations, rooted in democratic values."
+    }
+  }
+]
