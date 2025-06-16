@@ -1,8 +1,0 @@
-{
-  "timestamp": "2025-05-22_16-34-01",
-  "uuid": "6bc82e48-3711-11f0-b713-e4a8dfe361a5",
-  "function": "get_weather",
-  "arguments": {
-    "city": "Paris"
-  }
-}
