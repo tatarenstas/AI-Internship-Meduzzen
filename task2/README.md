@@ -1,17 +1,17 @@
-# 🤖 Task 2 — GPT-4o Tool Assistant with Function Calling
+# Task 2 — GPT-4o Tool Assistant with Function Calling
 
 This project demonstrates how to use **OpenAI GPT-4o's function calling** feature to create a command-line assistant capable of using Python tools to answer questions.
 
 The assistant supports:
-- 🌤️ **Fake Weather Reporting**
-- 📐 **Circle Area Calculation**
-- 🌐 **Wikipedia Summarization**
+- **Fake Weather Reporting**
+- **Circle Area Calculation**
+- **Wikipedia Summarization**
 
 The assistant automatically decides which tool to call based on your natural language input — simulating a mini GPT-powered agent with tool usage.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 Task 2/
@@ -25,7 +25,7 @@ Task 2/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Install dependencies**
 
@@ -53,7 +53,7 @@ python main.py -prompt "You are a sarcastic assistant that always jokes"
 
 ---
 
-## 🧠 Supported Tools
+## Supported Tools
 
 | Tool              | Description                            |
 |-------------------|----------------------------------------|
@@ -63,7 +63,7 @@ python main.py -prompt "You are a sarcastic assistant that always jokes"
 
 ---
 
-## 💾 Logging
+## Logging
 
 Each function call is automatically saved to `logs/` with a timestamp and arguments.
 
@@ -75,7 +75,7 @@ logs/2025-05-22_16-34-01_6bc82e48-3711-11f0-b713-e4a8dfe361a5_get_weather.json
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Uses OpenAI SDK v1.x
 - No streaming — simpler for tool execution

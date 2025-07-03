@@ -3,7 +3,7 @@
 ## Overview
 Throughout my internship, I embarked on a series of practical AI projects focused on building real-world applications using OpenAI’s GPT-4o, Whisper, and embedding models. These tasks spanned a wide spectrum of AI capabilities — from conversational interfaces and semantic search to audio transcription, tool calling, and memory-based assistants.
 
-## ✅ Achievements
+## Achievements
 
 ### 1. GPT-4o CLI Chatbot (Streaming + Logs)
 - **Developed** a command-line chatbot with real-time GPT-4o responses.
@@ -31,7 +31,7 @@ Throughout my internship, I embarked on a series of practical AI projects focuse
 - **Enabled** semantic search, session summarization, and streamed GPT-4o replies.
 - **Designed** the system for modularity, maintainability, and real-time interaction.
 
-## 🧠 Learning Outcomes
+## Learning Outcomes
 
 1. **Advanced API Usage**: Gained in-depth experience with OpenAI’s GPT-4o, embeddings, and Whisper.
 2. **Function Calling & Tool Integration**: Enabled GPT to call custom tools for hybrid reasoning.
@@ -40,12 +40,12 @@ Throughout my internship, I embarked on a series of practical AI projects focuse
 5. **CLI Design**: Designed intuitive command-line interfaces with argument parsing, command handling, and logging.
 6. **Modular Architecture**: Advocated the separation of concerns using reusable components and clean code practices.
 
-## 🧩 Key Technologies Used
+## Key Technologies Used
 - **Programming & APIs**: Python, OpenAI SDK v1
 - **AI Models**: GPT-4o, Whisper, Embeddings (text-embedding-3-small)
 - **Search & Storage**: FAISS, cosine similarity
 - **Utilities**: dotenv, argparse, wikipedia, rich
 - **Systems & Tools**: CLI tools, logging systems, semantic search engines
 
-## 📌 Final Reflection
+## Final Reflection
 This internship provided a holistic understanding of creating AI assistants that are not only interactive but also context-aware, tool-augmented, and capable of learning through conversations. I gained hands-on experience in designing intelligent, modular systems that bridge the gap between raw AI capabilities and practical user applications.
